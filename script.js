@@ -31,6 +31,9 @@ console.log(result1);
 
    console.log(customerName.concat(" booked ", ticketCount, " tickets for ", eventName));
 
+
+// ----------------------ANOTHER TASK ----------------------
+
    // Practice Tasks
 // 1. Create variables for your name, age, and course.
 const firstName= "Oreoluwa"
