@@ -30,3 +30,27 @@ console.log(result1);
    console.log(bookingMessage);
 
    console.log(customerName.concat(" booked ", ticketCount, " tickets for ", eventName));
+
+   // Practice Tasks
+// 1. Create variables for your name, age, and course.
+const firstName= "Oreoluwa"
+const age= 25
+const course= "Full Stack Web Dev"
+
+// 2. Use a template literal to introduce yourself.
+console.log(`My name is ${firstName}. I'm {age} years old studying the course, ${course}`)
+
+// 3. Create productName, price, and quantity.
+const productName= "The Nothing Phone"
+const price= 1000
+const quantity= 200
+
+// 4. Display a sentence containing the product name and total cost.
+console.log(`We've got a product - ${productName}. We've got ${quantity} units of it. So it has a total cost of ${price * quantity}`)
+
+// 5. Write a three-line welcome message using one template literal.
+console.log(`Hello there, my name is ${firstName}. I'm {age} years old.
+    I'm currently in TechStudio study the ${course} course. I hope to be good even to earn a living off it.
+    I've got a product called ${productName}`)
+
+// Display all results using console.log().
