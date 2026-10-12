@@ -26,7 +26,7 @@ console.log(result1);
    const ticketCount = 3;
    const eventName = "Music Night";
 
-   const bookingMessage= customerName + " booked " + ticketCount + " for " + eventName;
+   const bookingMessage= customerName + " booked " + ticketCount + " tickets for " + eventName;
    console.log(bookingMessage);
 
-   console.log(customerName.concat(" booked ", ticketCount, " for ", eventName));
+   console.log(customerName.concat(" booked ", ticketCount, " tickets for ", eventName));
